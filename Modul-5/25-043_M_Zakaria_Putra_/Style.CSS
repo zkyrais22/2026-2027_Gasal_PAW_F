@@ -1,0 +1,75 @@
+/* tampilan umum */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  color: dimgray;
+}
+
+.wrap {
+  max-width: 1000px;
+  margin: 30px auto;
+}
+
+/* judul halaman daftar */
+.head {
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.head .judul {
+  font-size: 20px;
+  color: steelblue;
+  float: left;
+  margin: 0;
+}
+
+.head .btn {
+  float: right;
+}
+
+/* judul halaman form tambah dan edit */
+.form-judul {
+  font-size: 30px;
+  color: steelblue;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 15px;
+  margin-bottom: 30px;
+}
+
+/* header tabel */
+.table > thead > tr > th {
+  background: powderblue;
+  color: steelblue;
+}
+
+.table > tbody > tr > td {
+  vertical-align: middle !important;
+}
+
+/* label form */
+.control-label {
+  font-weight: bold;
+}
+
+/* tombol */
+.btn-hijau {
+  background: forestgreen;
+  color: white;
+}
+
+.btn-oranye {
+  background: darkorange;
+  color: white;
+}
+
+.btn-merah {
+  background: crimson;
+  color: white;
+}
+
+.btn-hijau:hover, .btn-oranye:hover, .btn-merah:hover {
+  color: white;
+  opacity: 0.8;
+}
